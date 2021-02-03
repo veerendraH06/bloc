@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:state_management/view/bloc.dart';
-import 'package:state_management/view/login.dart';
+import 'package:state_management/screen/jsonExampleInternet.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
 
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Login_screen(),
+      home: JsonExample(),
     );
   }
 }

@@ -9,7 +9,7 @@ class ValidateCounter {
   int phone;
   double password;
 
-  final _counterStateController = StreamController<int>();
+  final _counterStateController = StreamController();
 
   StreamSink<int> get _Counter => _counterStateController.sink;
 
